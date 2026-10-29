@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Tide Field">
+  <rect width="800" height="1000" fill="#152026"/>
+  <rect y="120" width="800" height="90" fill="#1f3a42"/>
+  <rect y="230" width="800" height="70" fill="#2f5c58"/>
+  <rect y="330" width="800" height="120" fill="#c4924a" fill-opacity=".75"/>
+  <rect y="470" width="800" height="50" fill="#d6c4a0"/>
+  <rect y="540" width="800" height="160" fill="#23464d"/>
+  <rect y="730" width="800" height="180" fill="#0f1b20"/>
+</svg>

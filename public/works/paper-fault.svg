@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Paper Fault">
+  <rect width="800" height="1000" fill="#d8d2c8"/>
+  <path d="M0 220 L800 160 L800 210 L0 280 Z" fill="#bdb6ac"/>
+  <path d="M120 0 L170 1000 L210 1000 L180 0 Z" fill="#9f978c"/>
+  <path d="M0 640 L800 710 L800 760 L0 690 Z" fill="#cfc8be"/>
+  <rect x="430" y="300" width="220" height="280" fill="#ece7df"/>
+</svg>

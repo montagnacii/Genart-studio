@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Signal Bloom">
+  <defs>
+    <radialGradient id="bloom" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#fff4d8"/>
+      <stop offset="30%" stop-color="#e0b15c"/>
+      <stop offset="100%" stop-color="#1a1220"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#120e18"/>
+  <circle cx="400" cy="460" r="320" fill="url(#bloom)"/>
+  <circle cx="400" cy="460" r="70" fill="#fff7e8"/>
+</svg>

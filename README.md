@@ -1,6 +1,8 @@
 # Genart Studio
 
-未來網站用的 Vue 3 專案。本機路徑：`D:\Genart-studio`。
+以 Vue 3 建立的個人作品集網站：首頁、About、圖片庫、Tag 分類與作品詳細頁。本機路徑：`D:\Genart-studio`。
+
+GitHub：https://github.com/montagnacii/Genart-studio
 
 ## 開發
 
@@ -17,16 +19,12 @@ npm run dev
 npm run build
 ```
 
-產出會在 `dist/`，之後可以部署到 GitHub Pages 或其他靜態空間。
+產出在 `dist/`。這也是 Vercel 會執行的指令。
 
-## 推送到 GitHub
+## 部署到 Vercel
 
-第一次需要：
+1. 匯入這個 GitHub 儲存庫。
+2. Framework Preset 選 Vite，Build Command 用 `npm run build`，Output Directory 用 `dist`。
+3. 專案裡的 `vercel.json` 會把 `/about`、`/gallery`、`/gallery/:id` 導回 `index.html`，重新整理子頁面才不會 404。
 
-1. 到 [GitHub New repository](https://github.com/new) 建立一個名叫 `Genart-studio` 的 **private** 儲存庫（不要勾 README）。
-2. 把下面的 `YOUR_GITHUB_USERNAME` 換成你的帳號後執行：
-
-```sh
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/Genart-studio.git
-git push -u origin main
-```
+作品清單在 `src/data/works.ts`，圖片在 `public/works/`。改這兩處即可更新圖庫，不必接資料庫。

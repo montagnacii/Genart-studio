@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Dusk Grid">
+  <rect width="800" height="1000" fill="#14151c"/>
+  <rect x="80" y="90" width="280" height="360" fill="#3d3348"/>
+  <rect x="390" y="90" width="330" height="170" fill="#c4924a"/>
+  <rect x="390" y="290" width="160" height="280" fill="#6a5a73"/>
+  <rect x="580" y="290" width="140" height="140" fill="#8b6b3d"/>
+  <rect x="80" y="490" width="180" height="360" fill="#2c3344"/>
+  <rect x="290" y="610" width="430" height="240" fill="#4a3b3a"/>
+</svg>
